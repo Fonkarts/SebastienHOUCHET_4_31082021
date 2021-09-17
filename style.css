@@ -21,6 +21,14 @@ body {
 
 /* ^^ TEST GMAPS IFRAME ^^ */
 
+/* vv Correction affichage COL-SM-6 (adresse contact page2) vv */
+
+.adresseContact {
+    float: none;
+}
+
+/* ^^ Correction affichage COL-SM-6 (adresse contact page2) ^^ */
+
 
 a,
 button {
@@ -57,6 +65,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .bloc-lg {
