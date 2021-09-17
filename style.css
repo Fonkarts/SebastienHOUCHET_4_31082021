@@ -12,14 +12,15 @@ body {
 .gmaps_container {
     display: inline-flex;
     width: 100%;
-    margin: 3em 0 0 3em;
+    margin: 0 0 3em 1em;
 }
 
 .gmaps_test {
     height: 16em;
+    width: 50vw;
 }
 
-/* ^^ TEST GMAPS IFRAME ^^ */
+ /* ^^ TEST GMAPS IFRAME ^^ */
 
 /* vv Correction affichage COL-SM-6 (adresse contact page2) vv */
 
