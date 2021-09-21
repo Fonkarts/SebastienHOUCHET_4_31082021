@@ -11,11 +11,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+/* ----- CSS RAJOUT ----- */
 .logoAgence {
     height: 100px;
     width: 100px;
 }
+
+.titreFormulaire {
+    margin-left: 10px;
+}
+
+/* ----- CSS RAJOUT ----- */
 
 a,
 button {
