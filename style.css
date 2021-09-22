@@ -11,18 +11,81 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/*------------------------*/
 /* ----- CSS RAJOUT ----- */
+/*------------------------*/
+
 .logoAgence {
     height: 100px;
     width: 100px;
 }
 
 .titreFormulaire {
-    margin-left: 10px;
+    margin: 0 0 20px 15px;
 }
 
+@media screen and (max-width: 767px) {
+    .titreFormulaire {
+        margin-left: 10px;
+    }
+}
 
+.adresseContact {
+    margin-top: 30px;
+    float: none;
+}
+
+.footerText {
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 767px) {
+    .footerText {
+        margin-bottom: 30px;
+    }
+}
+
+header {
+    background-color: #05144F!important;
+}
+
+#bloc-5-cta, footer {
+    border-top: 3px solid #F3976C;
+
+}
+
+#bloc-1-hero, #bloc-3-what-i-do, #bloc-6 {
+    border-top: 3px solid #F3976C;
+    border-bottom: 3px solid #F3976C;
+}
+
+.lightBlueBg, #bloc-6 {
+    background-color: #364577;
+}
+
+a {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-thumb {
+        margin: 0 auto;
+    }
+}
+
+.col-sm-6 {
+    margin-bottom: 40px;
+}
+
+h2, .text-center, .adresseContact {
+    line-height: 26px;
+}
+
+/*------------------------*/
 /* ----- CSS RAJOUT ----- */
+/*------------------------*/
+
 
 a,
 button {
@@ -253,7 +316,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: white;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -271,7 +334,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #F3976C;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -369,7 +432,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: white;
     width: 26px;
 }
 
@@ -459,7 +522,6 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .mg-lg {
@@ -669,8 +731,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
@@ -681,7 +742,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 30px;
 }
 
 .hero-bloc-text-sub {
@@ -774,22 +835,22 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
     height: 270px;
     width: 270px;
 }
 
+/*
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-}
+}*/
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /*background-color: rgba(165, 147, 99, 0.7);*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -807,11 +868,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #05144F;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
