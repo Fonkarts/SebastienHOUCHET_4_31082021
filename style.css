@@ -33,7 +33,7 @@ body {
 
 .adresseContact {
     margin-top: 30px;
-    float: none;
+    text-align: center;
 }
 
 .footerText {
@@ -78,9 +78,20 @@ a {
     margin-bottom: 40px;
 }
 
-h2, .text-center, .adresseContact {
+h2, .text-center, .adresseContact { /*espacement du texte*/
     line-height: 26px;
 }
+
+.fa-chevron-up { /*donné de la visibilité au scroll-to-top*/
+    color: white;
+}
+
+.lienMail, .lienGmaps {
+    color: #575757;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
 
 /*------------------------*/
 /* ----- CSS RAJOUT ----- */
@@ -314,8 +325,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
 .l-bloc h3 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
+.l-bloc h6 a {
     color: white;
 }
 
@@ -541,7 +551,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(243, 151, 108, 0.8);
 }
 
 button {
