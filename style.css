@@ -55,6 +55,17 @@ header {
 
 }
 
+.quoteTitle {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.bloc3title {
+    text-align: center;
+    color: #F3976C
+}
+
 #bloc-1-hero, #bloc-3-what-i-do, #bloc-6 {
     border-top: 3px solid #F3976C;
     border-bottom: 3px solid #F3976C;
@@ -137,7 +148,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -970,13 +981,13 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -994,10 +1005,11 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
         overflow-x: hidden;
         position: relative;
     }
+    /*
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1006,8 +1018,8 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1278,7 +1290,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
 .et-icon-wallet,
 .et-icon-wine {
     font-family: et-line;
-    speak: none;
+    speak: always;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -1811,7 +1823,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
     animation: fa-spin 1s infinite steps(8)
 }
 
-@-webkit-keyframes fa-spin {
+@keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
@@ -4723,7 +4735,7 @@ SUPRESSION DES IMAGES NON-INDISPENSABLES, DANS UN SOUCIS DE PERFORMANCE ET DE CL
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    /*clip: rect(0, 0, 0, 0);*/
     border: 0
 }
 
