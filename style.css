@@ -16,6 +16,10 @@ body {
 /* ----- CSS RAJOUT ----- */
 /*------------------------*/
 
+strong {
+    font-weight: normal;
+}
+
 .logoAgence {
     height: 100px;
     width: 100px;
